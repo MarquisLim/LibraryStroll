@@ -1,0 +1,211 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+a:link{
+    text-decoration:none;
+}
+/*Мобмльное разрешение*/
+@media screen and (max-width: 1000px) {
+    #btn_cross, #content-img{
+    display: flex!important;
+    justify-content: center!important;
+    }
+    .statistic_info p{
+        font-size: 70px!important;
+    }
+    #img_niko{
+        max-width: 300px;
+        min-width: 300px;
+        width: 100%;
+    }
+ }
+.star svg{
+    fill: #ff9500;
+}
+.title-60-bold{
+    font-size: 60px;
+    font-weight: 900;
+}
+div{
+    font-family: 'Montserrat';
+}
+a{
+    text-decoration: none;
+}
+.container_m-120{
+    margin-left: 7%;
+    margin-right: 7%;
+    
+}
+.container-bg{
+    height: 100vh;
+    width: 100%;
+    color: #1d0147;
+    background-repeat: no-repeat;  
+    background-position: center center;
+    background-size: cover;
+    background-image:url("../img/bg2.png");
+}
+.content{
+    display: grid;
+    max-height: 100vh; 
+    width: 100%;
+    grid-template-areas: 'music void'
+    'main-text void'
+    'button void';
+    align-items: center;
+}
+/*Кнопка музыки*/
+.music{
+    display: grid;
+   
+    text-align: center;
+    grid-area: music;
+}
+.circle-music{
+    align-items: center;
+
+    width: 160px;
+    height: 160px;
+    border-radius: 100%;
+    background-color: white;
+}
+/*Текст*/
+.statistic_info p{
+    color:white;
+   
+}
+.squar_text{
+    display: flex;
+    font-size: 25px;
+    color: #1d0147;
+    font-weight:600;
+    border-radius: 20px 20px;
+    margin-top: 25px;
+    margin-left: 120px;
+    height: 108px;
+    width: 300px;
+    background-color: white;
+}
+.text-music{
+    margin-left: 30px;
+    margin-top: 35px;
+    justify-content: center;
+   
+}
+.cool{
+    border: 1px solid;
+}
+.main-text{
+    align-self: start;
+    grid-area: main-text;
+    color: white;
+    font-size: 55px;
+    font-weight:600;
+}
+.text-30{
+    font-size: 30px;
+}
+.text-25{
+    font-size: 25px;
+   
+}
+.about_company p{
+    text-align: justify;
+}
+/*Кнопки*/
+.button_main{
+    margin-top: 10%;
+    align-self: start;
+    grid-area: button;
+}
+.button_cross{
+    width: 263px;
+    height: 84px;
+    color: white;
+    background-color: #1E035A;
+    font-size: 30px;
+    font-weight: 600;
+    border-radius: 60px;
+}
+.button_read{
+    width: 140px;
+    height: 42px;
+    background-color: #1E035A;
+    font-size: 25px;
+    color: white;
+    border-radius: 60px;
+}
+/*Лого*/
+.logo{
+    font-family: 'Griffy';
+    color: white;  
+}
+/*Полоски*/
+.mainHR{
+    
+    width: 283px;
+    border-radius: 50%;
+    height: 4px;
+    background-color: #1E035A;
+}
+/*Карточки и IMG*/
+img{
+    object-fit:cover;
+}
+.about_company_img{
+    height: 100%;
+    width: 100%;
+    max-width: 708px;
+    max-height: 403px;
+    min-width: 450px;
+    min-height: 300px;
+    padding: 10px;
+}
+#company_img_border_1{
+    border-radius: 150px 50px 150px 50px;
+}
+#company_img_border_2{
+    border-radius: 50px 150px 50px 150px;
+}
+.main_library_img img{
+    max-width: 1400px;
+    max-height: 900px;
+    width: 100%;
+}
+.minor_library_img img{
+    max-width: 200px;
+    max-height: 200px;
+    width: 100%;
+    
+    min-width: 100px;
+    min-height: 100px;
+
+}
+section{
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+.statistic_info{
+    width: 100%;
+    max-width: 1920px;
+    max-height: 970px;
+    color: #1d0147;
+    background-repeat: no-repeat;  
+    background-position: center center;
+    background-size: cover;
+    background-image:url("../img/statistic_info.png");
+}
+/*Статистика*/
+.info-statistic{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+footer{
+    height: 380px;
+    width: 100%;
+    background-color: #1d0147;
+}
